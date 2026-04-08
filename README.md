@@ -41,7 +41,10 @@ smart-gym/
 | MISO | Pino 12 |
 | RST | Pino 9 |
 | GND | GND |
-| 3.3V | 3.3V |
+| 3.3V | **3.3V** ⚠️ |
+
+> [!WARNING]
+> **O módulo MFRC522 opera em 3.3V. Conectá-lo ao pino de 5V do Arduino danifica permanentemente o leitor.** Verifique duas vezes antes de ligar — os pinos `3.3V` e `5V` ficam lado a lado no Arduino e são fáceis de confundir.
 
 ## 💻 Dependências
 
@@ -139,9 +142,9 @@ AGUARDANDO_ID → TREINO_EM_CURSO → TREINO_CONCLUIDO → AGUARDANDO_ID
 
 ## 👥 Integrantes do Grupo
 
-- Gabriel Terra Lilla dos Santos RM554575
+- Weslley Cardoso RM557927
 - Fernando Navajas Moraes RM555080
-- Wesley Cardoso RM557927
+- Gabriel Terra Lilla dos Santos RM554575
 - José Guilherme Sipaúba Costa RM557274
 - Bruna da Costa Candeias RM558938
 
