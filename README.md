@@ -139,9 +139,11 @@ AGUARDANDO_ID → TREINO_EM_CURSO → TREINO_CONCLUIDO → AGUARDANDO_ID
 
 ## 👥 Integrantes do Grupo
 
-- Nome 1
-- Nome 2
-- Nome 3
+- Gabriel Terra Lilla dos Santos RM554575
+- Fernando Navajas Moraes RM555080
+- Wesley Cardoso RM557927
+- José Guilherme Sipaúba Costa RM557274
+- Bruna da Costa Candeias RM558938
 
 ## 📚 Tecnologias Utilizadas
 
